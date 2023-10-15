@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Про программирование</title>
+</head>
+<body>
+<ul>
+    {% for u in users -%}
+        <li>{{u.name}}
+    {% endfor -%}
+</ul>
+</body>
+</html>
